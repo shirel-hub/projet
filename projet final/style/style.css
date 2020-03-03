@@ -1,0 +1,50 @@
+body{
+   width: 1140px;
+   margin: auto;
+}
+
+.bordure{
+    text-align: center;
+    margin: 30PX;
+    padding: 20px;
+    width: 85%;
+    color: yellowgreen;
+    background-color: rgb(252, 252, 55);
+    border: 5px black solid;
+}
+
+.bordure:hover{
+    background-color:rgb(205, 50, 140);
+    
+}
+
+.bordure .click, .bordure:hover .touche {
+    display : none;
+}
+
+.bordure:hover .click {
+    display : block;
+}
+
+.jeu{
+    position:relative;
+    width:85%; 
+    height:100px;
+    /* float: left; */
+    background-color: black;
+
+}
+
+.flex-box{
+    display: flex; 
+    flex-flow: column;
+    float: left;
+}
+#clicker{
+    position :absolute;
+    width: 70px;
+    background-color : blue;
+    cursor: crosshair;
+} 
+
+
